@@ -17,12 +17,12 @@ set LOGLEVEL="info"
 # to trace evm
 #TRACE="--trace"
 set TRACE=""
-set HOME=%USERPROFILE%\.evmosd
+set HOME="c:/work/build/evmosd"
 echo %HOME%
 set ETHCONFIG=%HOME%\config\config.toml
 set GENESIS=%HOME%\config\genesis.json
 set TMPGENESIS=%HOME%\config\tmp_genesis.json
-
+set GOROOT="c:/work/evmos"
 @echo build binary
 go build .\cmd\evmosd
 
