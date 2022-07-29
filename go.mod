@@ -1,7 +1,5 @@
 module github.com/evmos/evmos/v6
 
-go 1.18
-
 require (
 	github.com/armon/go-metrics v0.4.0
 	github.com/cosmos/cosmos-sdk v0.45.6
@@ -25,7 +23,7 @@ require (
 	go.opencensus.io v0.23.0
 	google.golang.org/genproto v0.0.0-20220711132622-b6f31b0ceb50
 	google.golang.org/grpc v1.47.0
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.28.1
 )
 
 require (
